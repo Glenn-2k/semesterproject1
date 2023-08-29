@@ -58,6 +58,8 @@ nav a {
 nav {
     position: absolute;
     background-color: var(--background-colour);
+    top: 100%;
+    left: 0;
 }
 
 .nav-container {
