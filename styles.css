@@ -23,7 +23,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
 }
 
 .logo {
@@ -44,6 +43,15 @@ nav,
     display: block;
 }
 
+/* .logo-container {
+    text-align: center;
+}
+
+.header-text {
+    font-size: 0.8rem;
+}
+ */
+
 .header-text {
     display: none;
 }
@@ -61,6 +69,7 @@ nav {
     background-color: var(--background-colour);
     top: 100%;
     left: 0;
+    z-index: 100;
 }
 
 .nav-container {
@@ -101,4 +110,45 @@ footer {
 
 footer a {
     text-decoration: none;
+}
+
+
+
+/* Header/footer - Desktop view */
+
+@media (min-width: 956px) {
+
+
+    header {
+        height: 122px;
+    }
+
+    .logo {
+        width: 89px;
+    }
+
+    .header-text {
+        display: block;
+    }
+
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
