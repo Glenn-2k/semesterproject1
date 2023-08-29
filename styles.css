@@ -150,5 +150,26 @@ footer a {
         align-items: center;
     }
 
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 185px;
+
+    }
+
+    .right-footer {
+        display: block;
+    }
+
+    address {
+        display: block;
+    }
+
+    .right-footer,
+    .left-footer {
+        flex: 1;
+    }
+
 
 }
