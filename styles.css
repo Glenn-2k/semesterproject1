@@ -74,7 +74,7 @@ footer {
     width: 100%;
     position: fixed;
     height: 185px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 .left-footer {
@@ -91,4 +91,9 @@ footer {
 .media_social_icon {
     width: 40px;
     height: auto;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
 }
