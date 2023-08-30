@@ -28,7 +28,7 @@ header {
 .logo {
     width: 40px;
     height: auto;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 
@@ -73,7 +73,7 @@ nav {
 }
 
 .nav-container {
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 footer {
@@ -116,7 +116,7 @@ footer a {
 
 /* Header/footer - Desktop view */
 
-@media (min-width: 956px) {
+@media (min-width: 835px) {
 
 
     header {
@@ -148,6 +148,7 @@ footer a {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 30px;
     }
 
     footer {
@@ -160,10 +161,16 @@ footer a {
 
     .right-footer {
         display: block;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     address {
         display: block;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0px;
+        padding: 0px;
     }
 
     .right-footer,
@@ -171,5 +178,12 @@ footer a {
         flex: 1;
     }
 
+
+}
+
+@media (max-width: 1020px) {
+    .header-text {
+        font-size: 1.2rem;
+    }
 
 }
