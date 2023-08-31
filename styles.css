@@ -77,9 +77,12 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
-    position: fixed;
     height: 185px;
     padding-bottom: 35px;
+}
+
+.footer-headline-social {
+    padding-top: 40px;
 }
 
 .left-footer {
@@ -103,6 +106,7 @@ footer {
 
 footer a {
     text-decoration: none;
+    padding-bottom: 15px;
 }
 
 
@@ -199,7 +203,7 @@ footer a {
     padding-top: 25px;
 }
 
-.content-container {
+.content-container-foreground {
     background-color: var(--foreground-colour);
     height: auto;
     width: 100%;
@@ -209,17 +213,27 @@ footer a {
 
 }
 
-.exhibition-1 {
+.content-container-background {
+    background-color: var(--background-colour);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.exhibition-1,
+.exhibition-2,
+.exhibition-3 {
     font-size: 0.875rem;
     margin: 0 30px;
     padding-top: 30px;
-    /*     padding-bottom: 30px;
- */
     text-align: center;
     line-height: 130%;
 }
 
-.learn-more-1 {
+.learn-more {
     text-align: center;
     text-decoration: none;
     color: var(--font-colour);
