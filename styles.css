@@ -187,3 +187,16 @@ footer a {
     }
 
 }
+
+/* home - mobile view */
+
+.banner-container {
+    width: 100%;
+    overflow: hidden;
+    height: 139px;
+    width: auto;
+}
+
+.banner-image {
+    object-fit: contain;
+}
