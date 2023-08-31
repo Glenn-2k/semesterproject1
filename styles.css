@@ -191,12 +191,9 @@ footer a {
 /* home - mobile view */
 
 .banner-container {
-    width: 100%;
-    overflow: hidden;
+    background: url(images/Hero-scott-webb-102825.jpg);
+    background-position: center center;
+    background-size: cover;
     height: 139px;
-    width: auto;
-}
-
-.banner-image {
-    object-fit: contain;
+    width: 100%;
 }
