@@ -185,6 +185,12 @@ footer a {
 
 /* home - mobile view */
 
+.image-1-home,
+.image-2-home,
+.image-3-home {
+    display: none;
+}
+
 .banner-container-home {
     background: url(images/Hero-scott-webb-102825.jpg);
     background-position: center center;
@@ -238,8 +244,12 @@ footer a {
     font-weight: 700;
     padding-top: 10px;
     padding-bottom: 30px;
+}
 
-
+.text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -255,6 +265,7 @@ footer a {
     .image-1-home,
     .image-2-home,
     .image-3-home {
+        display: block;
         height: auto;
         width: 475px;
         max-height: 15rem;
@@ -298,6 +309,7 @@ footer a {
 
     .learn-more {
         padding-top: 5px;
+        align-self: baseline;
     }
 
 }
