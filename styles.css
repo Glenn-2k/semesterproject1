@@ -283,5 +283,21 @@ footer a {
         margin-left: 80px;
     }
 
+    .exhibition-1,
+    .exhibition-2,
+    .exhibition-3,
+    .learn-more {
+        text-align: left;
+    }
+
+    .exhibition-1,
+    .exhibition-2,
+    .exhibition-3 {
+        margin: 0;
+    }
+
+    .learn-more {
+        padding-top: 5px;
+    }
 
 }
