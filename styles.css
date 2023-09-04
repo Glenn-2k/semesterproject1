@@ -241,3 +241,53 @@ footer a {
 
 
 }
+
+
+/* home - Desktop view */
+
+@media (min-width: 835px) {
+
+
+    .banner-container-home {
+        height: 480px;
+    }
+
+    .image-1-home,
+    .image-2-home,
+    .image-3-home {
+        height: auto;
+        width: 475px;
+    }
+
+    .image-1-home,
+    .image-3-home {
+        margin-left: 80px;
+
+    }
+
+    .image-2-home {
+        margin-right: 80px;
+    }
+
+    .content-container-foreground,
+    .content-container-background {
+        flex-direction: row;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 80px;
+    }
+
+
+    .headline {
+        text-align: left;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-left: 80px;
+    }
+
+
+}
