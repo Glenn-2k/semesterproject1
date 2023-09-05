@@ -382,13 +382,19 @@ footer a {
 .subheader-address {
     font-weight: 500;
     font-size: 0.9rem;
-    margin-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.visit-1 {
+    margin: 2px;
+    padding-bottom: 5px;
 }
 
 .visit-2 {
     margin: 10px 30px
 }
 
+.visit-1,
 .visit-2,
 .visit-3 {
     font-size: 0.875rem;
@@ -402,4 +408,41 @@ footer a {
 
 .visit-3-container {
     padding: 10px 0;
+}
+
+
+/* visit - desktop view */
+
+
+@media (min-width: 835px) {
+
+
+    .banner-container-visit {
+        height: 480px;
+    }
+
+    .map-image {
+        height: auto;
+        width: 475px;
+        max-height: 15rem;
+        object-fit: contain;
+        margin: 0px 80px;
+    }
+
+
+    .visit-1 {
+        padding-bottom: 0;
+    }
+
+    .visit-2 {
+        padding-bottom: 20px;
+    }
+
+    .line-2-visit,
+    .line-3-visit {
+        display: flex;
+    }
+
+
+
 }
