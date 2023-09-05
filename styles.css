@@ -386,8 +386,20 @@ footer a {
 }
 
 .visit-2 {
+    margin: 10px 30px
+}
+
+.visit-2,
+.visit-3 {
     font-size: 0.875rem;
-    margin: 10px 30px;
     text-align: center;
     line-height: 130%;
+}
+
+.visit-3 {
+    margin: 5px 30px;
+}
+
+.visit-3-container {
+    padding: 10px 0;
 }
