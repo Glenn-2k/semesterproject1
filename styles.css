@@ -480,6 +480,41 @@ footer a {
     }
 
 
+}
 
+
+/* get involved - mobile view */
+
+.involved-text {
+    font-size: 0.875rem;
+    margin: 0 30px;
+    text-align: center;
+    line-height: 130%;
+    padding: 20px;
+}
+
+.text-container-involved {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* get involved - desktop view */
+
+@media (min-width: 835px) {
+
+    .involved-text {
+        text-align: left;
+        padding: 10px 10px 10px 0px;
+        margin: 0;
+    }
+
+
+    .text-container-involved {
+        align-items: baseline;
+        margin: 0px 80px;
+    }
 
 }
