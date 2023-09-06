@@ -449,3 +449,16 @@ footer a {
 
 
 }
+
+
+/* Events - mobile view */
+
+
+
+.events-1,
+.events-2 {
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 130%;
+    margin: 10px 30px
+}
