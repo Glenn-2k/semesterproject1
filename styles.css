@@ -246,7 +246,8 @@ footer a {
     padding-bottom: 30px;
 }
 
-.text-container {
+.text-container,
+.text-container-map {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -279,11 +280,13 @@ footer a {
         flex-direction: row;
     }
 
-    .text-container {
+    .text-container,
+    .text-container-map {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0px 80px;
+        flex: 1;
     }
 
 
@@ -377,6 +380,7 @@ footer a {
 .map-image {
     margin: 0 30px;
     padding: 30px 0px;
+    flex: 1;
 }
 
 .subheader-address {
