@@ -453,7 +453,13 @@ footer a {
 
 /* Events - mobile view */
 
-
+.banner-container-events {
+    background: url(images/william-bout-264826.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 139px;
+    width: 100%;
+}
 
 .events-1,
 .events-2 {
@@ -461,4 +467,19 @@ footer a {
     text-align: center;
     line-height: 130%;
     margin: 10px 30px
+}
+
+
+/* Events - desktop view */
+
+
+@media (min-width: 835px) {
+
+    .banner-container-events {
+        height: 480px;
+    }
+
+
+
+
 }
