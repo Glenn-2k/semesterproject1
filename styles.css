@@ -527,8 +527,40 @@ footer a {
         margin: 0px 80px;
     }
 
-    /*     .content-container-foreground-involved {
-        flex-direction: column;
+}
+
+
+/* learn more - mobile view */
+
+.banner-container-learnmore {
+    background: url(images/celso-405219.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 139px;
+    width: 100%;
+}
+
+.learnmore-subheader {
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin: 0 30px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 130%;
+}
+
+
+/* learn more - desktop view */
+
+
+@media (min-width: 835px) {
+
+    .banner-container-learnmore {
+        height: 480px;
     }
- */
+
+    .learnmore-subheader {
+        margin-left: 0;
+    }
+
 }
