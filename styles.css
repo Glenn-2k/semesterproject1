@@ -429,6 +429,7 @@ footer a {
         max-height: 15rem;
         object-fit: contain;
         margin: 0px 80px;
+        flex: 1;
     }
 
 
@@ -526,7 +527,7 @@ footer a {
         margin: 0px 80px;
     }
 
-/*     .content-container-foreground-involved {
+    /*     .content-container-foreground-involved {
         flex-direction: column;
     }
  */
