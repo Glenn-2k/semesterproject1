@@ -307,13 +307,12 @@ footer a {
         flex-direction: column;
         margin: 10px 80px;
         flex: 1;
-    }
-
-
-
-    .text-container-map {
         justify-content: center;
     }
+
+/*     .text-container-map {
+        justify-content: center;
+    } */
 
 
     .headline {
@@ -328,6 +327,7 @@ footer a {
     .exhibition-3,
     .learn-more {
         text-align: left;
+        align-self: baseline;
     }
 
     .exhibition-1,
@@ -339,7 +339,6 @@ footer a {
 
     .learn-more {
         padding-top: 5px;
-        align-self: baseline;
     }
 
 }
