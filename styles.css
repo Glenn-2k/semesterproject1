@@ -186,430 +186,433 @@ footer a {
         flex: 1;
     }
 
+}
 
-    @media (max-width: 1020px) {
-        .header-text {
-            font-size: 1.2rem;
-        }
-
+@media (max-width: 1020px) {
+    .header-text {
+        font-size: 1.2rem;
     }
 
+}
 
 
 
 
 
 
-    /* home - mobile view */
+
+/* home - mobile view */
 
 
 
 
+
+.image-1-home,
+.image-2-home,
+.image-3-home {
+    display: none;
+}
+
+.banner-container-home {
+    background: url(images/Hero-scott-webb-102825.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 139px;
+    width: 100%;
+}
+
+.headline {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    padding-top: 25px;
+}
+
+.content-container-foreground {
+    background-color: var(--foreground-colour);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-container-background {
+    background-color: var(--background-colour);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.exhibition-1,
+.exhibition-2,
+.exhibition-3 {
+    font-size: var(--content-font-size);
+    margin: 0 30px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: var(--line-height);
+}
+
+.learn-more {
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-colour);
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.text-container,
+.text-container-map {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* home - Desktop view */
+
+@media (min-width: 835px) {
+
+
+    .banner-container-home {
+        height: 480px;
+    }
 
     .image-1-home,
     .image-2-home,
     .image-3-home {
-        display: none;
-    }
-
-    .banner-container-home {
-        background: url(images/Hero-scott-webb-102825.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 139px;
-        width: 100%;
-    }
-
-    .headline {
-        text-align: center;
-        font-weight: 600;
-        font-size: 1.1rem;
-        letter-spacing: 0.2rem;
-        padding-top: 25px;
-    }
-
-    .content-container-foreground {
-        background-color: var(--foreground-colour);
+        display: block;
         height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        width: 475px;
+        max-height: 15rem;
+        object-fit: cover;
+        margin: 0px 80px;
     }
 
+
+    .content-container-foreground,
     .content-container-background {
-        background-color: var(--background-colour);
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-    }
-
-    .exhibition-1,
-    .exhibition-2,
-    .exhibition-3 {
-        font-size: var(--content-font-size);
-        margin: 0 30px;
-        padding-top: 30px;
-        text-align: center;
-        line-height: var(--line-height);
-    }
-
-    .learn-more {
-        text-align: center;
-        text-decoration: none;
-        color: var(--font-colour);
-        font-weight: 700;
-        padding-top: 10px;
-        padding-bottom: 30px;
+        flex-direction: row;
     }
 
     .text-container,
     .text-container-map {
         display: flex;
-        align-items: center;
         flex-direction: column;
+        justify-content: center;
+        margin: 0px 80px;
+        flex: 1;
     }
 
 
-    /* home - Desktop view */
-
-    @media (min-width: 835px) {
-
-
-        .banner-container-home {
-            height: 480px;
-        }
-
-        .image-1-home,
-        .image-2-home,
-        .image-3-home {
-            display: block;
-            height: auto;
-            width: 475px;
-            max-height: 15rem;
-            object-fit: cover;
-            margin: 0px 80px;
-        }
-
-
-        .content-container-foreground,
-        .content-container-background {
-            flex-direction: row;
-        }
-
-        .text-container,
-        .text-container-map {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 0px 80px;
-            flex: 1;
-        }
-
-
-        .headline {
-            text-align: left;
-            font-weight: 600;
-            font-size: 1.5rem;
-            margin-left: 80px;
-        }
-
-        .exhibition-1,
-        .exhibition-2,
-        .exhibition-3,
-        .learn-more {
-            text-align: left;
-        }
-
-        .exhibition-1,
-        .exhibition-2,
-        .exhibition-3 {
-            margin: 0;
-        }
-
-        .learn-more {
-            padding-top: 5px;
-            align-self: baseline;
-        }
-
+    .headline {
+        text-align: left;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-left: 80px;
     }
 
+    .exhibition-1,
+    .exhibition-2,
+    .exhibition-3,
+    .learn-more {
+        text-align: left;
+    }
+
+    .exhibition-1,
+    .exhibition-2,
+    .exhibition-3 {
+        margin: 0;
+        align-self: baseline;
+    }
+
+    .learn-more {
+        padding-top: 5px;
+        align-self: baseline;
+    }
+
+}
 
 
 
 
 
-    /* explore - mobile view */
+
+/* explore - mobile view */
 
 
 
 
+
+.banner-container-explore {
+    background: url(images/mavis-cw-164128.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 139px;
+    width: 100%;
+}
+
+
+.explore-1,
+.explore-2,
+.explore-3 {
+
+    font-size: var(--content-font-size);
+    margin: 0 30px;
+    padding: 30px 0px;
+    text-align: center;
+    line-height: var(--line-height);
+}
+
+.small-header {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+
+/* explore - desktop view */
+
+
+@media (min-width: 835px) {
 
     .banner-container-explore {
-        background: url(images/mavis-cw-164128.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 139px;
-        width: 100%;
+        height: 480px;
     }
-
 
     .explore-1,
     .explore-2,
     .explore-3 {
-
-        font-size: var(--content-font-size);
-        margin: 0 30px;
-        padding: 30px 0px;
-        text-align: center;
-        line-height: var(--line-height);
-    }
-
-    .small-header {
-        margin-bottom: 0;
-        text-transform: uppercase;
-        font-size: 0.8rem;
-    }
-
-
-    /* explore - desktop view */
-
-
-    @media (min-width: 835px) {
-
-        .banner-container-explore {
-            height: 480px;
-        }
-
-        .explore-1,
-        .explore-2,
-        .explore-3 {
-            margin: 0 10px;
-            padding: 7px 0px;
-
-        }
+        margin: 0 10px;
+        padding: 7px 0px;
 
     }
 
+}
 
 
 
 
-    /* visit - mobile view */
+
+/* visit - mobile view */
 
 
+
+
+.banner-container-visit {
+    background: url(images/toa-heftiba-412579.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 139px;
+    width: 100%;
+}
+
+.map-image {
+    margin: 0 30px;
+    padding: 30px 0px;
+}
+
+.subheader-address {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.visit-1 {
+    margin: 2px;
+    padding-bottom: 5px;
+}
+
+.visit-2 {
+    margin: 10px 30px
+}
+
+.visit-1,
+.visit-2,
+.visit-3 {
+    font-size: var(--content-font-size);
+    text-align: center;
+    line-height: var(--line-height);
+}
+
+.visit-3 {
+    margin: 5px 30px;
+}
+
+.visit-3-container {
+    padding: 10px 0;
+}
+
+
+/* visit - desktop view */
+
+
+@media (min-width: 835px) {
 
 
     .banner-container-visit {
-        background: url(images/toa-heftiba-412579.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 139px;
-        width: 100%;
+        height: 480px;
     }
 
     .map-image {
-        margin: 0 30px;
-        padding: 30px 0px;
+        height: auto;
+        width: 475px;
+        max-height: 15rem;
+        object-fit: contain;
+        margin: 0px 80px;
+        flex: 1;
     }
 
-    .subheader-address {
-        font-weight: 500;
-        font-size: 0.9rem;
-        margin-bottom: 15px;
-    }
 
     .visit-1 {
-        margin: 2px;
-        padding-bottom: 5px;
+        padding-bottom: 0;
     }
 
     .visit-2 {
-        margin: 10px 30px
-    }
-
-    .visit-1,
-    .visit-2,
-    .visit-3 {
-        font-size: var(--content-font-size);
-        text-align: center;
-        line-height: var(--line-height);
-    }
-
-    .visit-3 {
-        margin: 5px 30px;
-    }
-
-    .visit-3-container {
-        padding: 10px 0;
+        padding-bottom: 5px;
     }
 
 
-    /* visit - desktop view */
-
-
-    @media (min-width: 835px) {
-
-
-        .banner-container-visit {
-            height: 480px;
-        }
-
-        .map-image {
-            height: auto;
-            width: 475px;
-            max-height: 15rem;
-            object-fit: contain;
-            margin: 0px 80px;
-            flex: 1;
-        }
-
-
-        .visit-1 {
-            padding-bottom: 0;
-        }
-
-        .visit-2 {
-            padding-bottom: 5px;
-        }
-
-        .line-2-visit,
-        .line-3-visit {
-            display: flex;
-            justify-content: center;
-        }
-
-
-    }
-
-
-
-
-
-
-
-    /* Events - mobile view */
-
-
-
-    .banner-container-events {
-        background: url(images/william-bout-264826.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 139px;
-        width: 100%;
-    }
-
-    .events-1,
-    .events-2 {
-        font-size: var(--content-font-size);
-        text-align: center;
-        line-height: var(--line-height);
-        margin: 10px 30px
-    }
-
-
-    /* Events - desktop view */
-
-
-    @media (min-width: 835px) {
-
-        .banner-container-events {
-            height: 480px;
-        }
-
-
-    }
-
-
-
-
-
-
-    /* get involved - mobile view */
-
-
-
-
-
-    .content-container-foreground-involved {
-        background-color: var(--foreground-colour);
-        height: auto;
-        width: 100%;
+    .line-2-visit,
+    .line-3-visit {
         display: flex;
         justify-content: center;
-        flex-direction: column;
     }
+
+
+}
+
+
+
+
+
+
+
+/* Events - mobile view */
+
+
+
+.banner-container-events {
+    background: url(images/william-bout-264826.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 139px;
+    width: 100%;
+}
+
+.events-1,
+.events-2 {
+    font-size: var(--content-font-size);
+    text-align: center;
+    line-height: var(--line-height);
+    margin: 10px 30px
+}
+
+
+/* Events - desktop view */
+
+
+@media (min-width: 835px) {
+
+    .banner-container-events {
+        height: 480px;
+    }
+
+
+}
+
+
+
+
+
+
+/* get involved - mobile view */
+
+
+
+
+
+.content-container-foreground-involved {
+    background-color: var(--foreground-colour);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.involved-text {
+    font-size: var(--content-font-size);
+    margin: 0 30px;
+    text-align: center;
+    line-height: var(--line-height);
+    padding: 20px;
+}
+
+.text-container-involved {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* get involved - desktop view */
+
+@media (min-width: 835px) {
 
     .involved-text {
-        font-size: var(--content-font-size);
-        margin: 0 30px;
-        text-align: center;
-        line-height: var(--line-height);
-        padding: 20px;
+        text-align: left;
+        padding: 10px 10px 10px 0px;
+        margin: 0;
     }
+
 
     .text-container-involved {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        align-items: baseline;
+        margin: 0px 80px;
     }
 
+}
 
 
-    /* get involved - desktop view */
+/* learn more - mobile view */
 
-    @media (min-width: 835px) {
+.banner-container-learnmore {
+    background: url(images/celso-405219.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 139px;
+    width: 100%;
+}
 
-        .involved-text {
-            text-align: left;
-            padding: 10px 10px 10px 0px;
-            margin: 0;
-        }
+.learnmore-subheader {
+    font-weight: 500;
+    font-size: var(--content-font-size);
+    margin: 0 30px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: var(--line-height);
+}
 
 
-        .text-container-involved {
-            align-items: baseline;
-            margin: 0px 80px;
-        }
-
-    }
+/* learn more - desktop view */
 
 
-    /* learn more - mobile view */
+@media (min-width: 835px) {
 
     .banner-container-learnmore {
-        background: url(images/celso-405219.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 139px;
-        width: 100%;
+        height: 480px;
     }
 
     .learnmore-subheader {
-        font-weight: 500;
-        font-size: var(--content-font-size);
-        margin: 0 30px;
-        padding-top: 30px;
-        text-align: center;
-        line-height: var(--line-height);
+        margin-left: 0;
     }
 
-
-    /* learn more - desktop view */
-
-
-    @media (min-width: 835px) {
-
-        .banner-container-learnmore {
-            height: 480px;
-        }
-
-        .learnmore-subheader {
-            margin-left: 0;
-        }
-
-    }
+}
