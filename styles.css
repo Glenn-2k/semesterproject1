@@ -305,9 +305,14 @@ footer a {
     .text-container-map {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: 0px 80px;
+        margin: 10px 80px;
         flex: 1;
+    }
+
+
+
+    .text-container-map {
+        justify-content: center;
     }
 
 
