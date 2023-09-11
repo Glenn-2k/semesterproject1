@@ -62,6 +62,10 @@ nav,
     display: none;
 }
 
+label span {
+    display: none;
+}
+
 nav a {
     display: block;
     color: var(--font-colour);
@@ -311,7 +315,7 @@ footer a {
         justify-content: center;
     }
 
-/*     .text-container-map {
+    /*     .text-container-map {
         justify-content: center;
     } */
 
