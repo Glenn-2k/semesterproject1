@@ -1,6 +1,34 @@
-# semesterproject1
+# Semester Project / Community Science Museum
 
-Brief
-An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children. The museum wants an informative, appealing website to attract middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is curious and intelligent. The website should be informative and engaging, encouraging viewers to visit the museum. The website should be responsive and easy to use on various devices.
+![image](https://github.com/Glenn-2k/semesterproject1/blob/main/images/Logo-semesterproject.png)
 
-You have been provided media assets as text and images (see link under Resources). It is for you to decide how these will be used in terms of presentation, hierarchy, and design.
+## Description
+
+We were tasked with making a family community science museum, targeting children aged 7 to 15. The teachers gave us all the content(images and text), but everything else we had to come up with.
+
+## Built With
+
+You can list a the tech stack that you've used over here
+
+- Figma
+- HTML
+- CSS
+
+## Getting Started
+
+1. [Clone the repo](https://github.com/Glenn-2k/semesterproject1/)
+2. [Visit the website](https://glennsp1.netlify.app/)
+
+## Contributing
+
+If you want to contribute, I would appreciate it if you open a pull request, so that the code can be reviewed.
+
+## Contact
+
+Feel free to get in touch!
+
+[Email](mailto:glenn.andre.kristiansen@gmail.com)
+
+[Twitter](www.twitter.com/Glenn2k)
+
+[LinkedIn](www.linkedin.com/in/glenn-andré-kristiansen-7a4b3975)
